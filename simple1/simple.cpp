@@ -34,7 +34,7 @@ void CALLBACK  stopIdleFunc(AUX_EVENTREC *event)
 void myinit(void)
 {
 	glClearColor(0.0, 0.0, 0.0, 1.0);
-	glColor3f(1.0, 1.0, 1.0);
+	glColor3f(1.0, 0.0, 1.0);
 	glShadeModel(GL_FLAT);
 }
 void CALLBACK myReshape(GLsizei w, GLsizei h)
